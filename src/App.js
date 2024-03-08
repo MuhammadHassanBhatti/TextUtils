@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import TextUtilsForm from "./components/TextUtilsForm";
 import Alerts from "./components/Alerts";
+import Cards from "./components/Cards";
 // import About from "./components/About";
-// import Cards from "./components/Cards";
 // import Practiceset from "./components/Practiceset";
 // import Game from "./components/Game";
 // import Hooks from "./components/Hooks";
@@ -41,11 +41,11 @@ function App() {
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alerts alert={alert} />
       <TextUtilsForm mode={mode} showAlert={showAlert} />
+      <Cards />
 
       {/* <TanStackTable/> */}
       {/* <ProblemSoliving/> */}
       {/* <About /> */}
-      {/* <Cards /> */}
       {/* <Game /> */}
       {/* <Practiceset /> */}
     </>
