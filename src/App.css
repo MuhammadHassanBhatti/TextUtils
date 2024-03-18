@@ -6,3 +6,10 @@
 img{
     height:40%;
 }
+.tabelBorder{
+    margin-bottom:100px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

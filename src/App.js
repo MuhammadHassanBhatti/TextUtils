@@ -8,7 +8,7 @@ import Cards from "./components/Cards";
 // import Practiceset from "./components/Practiceset";
 // import Game from "./components/Game";
 // import Hooks from "./components/Hooks";
-// import TanStackTable from "./components/TanStackTable";
+import TanStackTable from "./components/TanStackTable";
 // import ProblemSoliving from "./components/ProblemSolving";
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
       <TextUtilsForm mode={mode} showAlert={showAlert} />
       <Cards />
 
-      {/* <TanStackTable/> */}
+      <TanStackTable/>
       {/* <ProblemSoliving/> */}
       {/* <About /> */}
       {/* <Game /> */}
