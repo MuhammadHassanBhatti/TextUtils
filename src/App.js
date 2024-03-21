@@ -4,12 +4,12 @@ import Navbar from "./components/Navbar";
 import TextUtilsForm from "./components/TextUtilsForm";
 import Alerts from "./components/Alerts";
 import Cards from "./components/Cards";
-// import About from "./components/About";
+import About from "./components/About";
 // import Practiceset from "./components/Practiceset";
 // import Game from "./components/Game";
 // import Hooks from "./components/Hooks";
 import TanStackTable from "./components/TanStackTable";
-// import ProblemSoliving from "./components/ProblemSolving";
+import ProblemSoliving from "./components/ProblemSolving";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -44,10 +44,10 @@ function App() {
       <Cards />
 
       <TanStackTable/>
-      {/* <ProblemSoliving/> */}
-      {/* <About /> */}
-      {/* <Game /> */}
-      {/* <Practiceset /> */}
+      <ProblemSoliving/>
+      <About />
+      {/* <Game />
+      <Practiceset /> */}
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Cards() {
   return (
-      <div className="parent-class my-5">
+      <div className="container parent-class my-5 ">
         <div className="container-fluid">
           <div className="row gy-2">
 

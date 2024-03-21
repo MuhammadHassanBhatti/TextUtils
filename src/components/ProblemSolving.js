@@ -3,7 +3,9 @@ import React from 'react'
 const ProblemSolving = () => {
     return (
         <>
-        <div>ProblemSolving</div>
+        <div className='container'>
+            ProblemSolving (Check Console)
+        </div>
         </>
         
     )
