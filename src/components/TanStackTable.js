@@ -28,13 +28,6 @@ const TanStackTable = () => {
     { Header: "Visits", accessor: "visits" },
     { Header: "Progress", accessor: "progress" },
     { Header: "Status", accessor: "status" },
-    //For Commit
-    { Header: "First Name", accessor: "firstName" },
-    { Header: "Last Name", accessor: "lastName" },
-    { Header: "Age", accessor: "age" },
-    { Header: "Visits", accessor: "visits" },
-    { Header: "Progress", accessor: "progress" },
-    { Header: "Status", accessor: "status" },
   ];
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =

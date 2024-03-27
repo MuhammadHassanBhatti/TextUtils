@@ -43,8 +43,8 @@ function App() {
       <TextUtilsForm mode={mode} showAlert={showAlert} />
       <Cards />
 
-      <TanStackTable/>
-      <ProblemSoliving/>
+      <TanStackTable />
+      <ProblemSoliving />
       <About />
       {/* <Game />
       <Practiceset /> */}
