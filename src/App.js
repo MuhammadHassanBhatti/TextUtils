@@ -3,13 +3,13 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import TextUtilsForm from "./components/TextUtilsForm";
 import Alerts from "./components/Alerts";
-import Cards from "./components/Cards";
+import ProblemSolving from "./components/ProblemSolving";
 import About from "./components/About";
+// import Cards from "./components/Cards";
 // import Practiceset from "./components/Practiceset";
 // import Game from "./components/Game";
 // import Hooks from "./components/Hooks";
-import TanStackTable from "./components/TanStackTable";
-import ProblemSolving from "./components/ProblemSolving";
+// import TanStackTable from "./components/TanStackTable";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -41,11 +41,10 @@ function App() {
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alerts alert={alert} />
       <TextUtilsForm mode={mode} showAlert={showAlert} />
-      <Cards />
-      <TanStackTable />
       <ProblemSolving />
       <About />
-
+      {/* <Cards /> */}
+      {/* <TanStackTable /> */}
       {/* <Game />
       <Practiceset /> */}
     </>
