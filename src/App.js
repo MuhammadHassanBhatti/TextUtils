@@ -9,7 +9,7 @@ import About from "./components/About";
 // import Game from "./components/Game";
 // import Hooks from "./components/Hooks";
 import TanStackTable from "./components/TanStackTable";
-import ProblemSoliving from "./components/ProblemSolving";
+import ProblemSolving from "./components/ProblemSolving";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -42,10 +42,10 @@ function App() {
       <Alerts alert={alert} />
       <TextUtilsForm mode={mode} showAlert={showAlert} />
       <Cards />
-
       <TanStackTable />
-      <ProblemSoliving />
+      <ProblemSolving />
       <About />
+
       {/* <Game />
       <Practiceset /> */}
     </>

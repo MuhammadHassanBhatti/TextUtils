@@ -1,69 +1,53 @@
-import React from 'react'
+import React from "react";
 
 const ProblemSolving = () => {
-    return (
-        <>
-        <div className='container'>
-            ProblemSolving (Check Console)
-        </div>
-        </>
-        
-    )
+  return (
+    <>
+      <div className="container">ProblemSolving (Check Console)</div>
+    </>
+  );
+};
+
+const x = 1;
+a();
+b();
+console.log(x);
+
+function a() {
+  const x = 10;
+  console.log(x);
 }
-function solveProblem(arr) {
-            const charCount = {};
-            let maxChar = arr[0];
-            let maxCount = 1;
-        
-            for (const char of arr) {
-                charCount[char] = (charCount[char] || 0) + 1;
-        
-                if (charCount[char] > maxCount) {
-                    maxChar = char;
-                    maxCount = charCount[char];
-                }
-            }
-            const result = { [maxChar]: maxCount };
-            console.log(result);
+function b() {
+  const x = 100;
+  console.log(x);
 }
 
+// function solveProblem(arr) {
+//             const charCount = {};
+//             let maxChar = arr[0];
+//             let maxCount = 1;
 
-solveProblem(['a', 'a', 'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a']) 
-solveProblem(['3', '1', '1', '2', '1', '1', '2', '2', '2', '2', '2', '1', '3', '3', '1', '2'])
-solveProblem(['a', 'a', 'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a', 'a', 'a', 'b', 'b', 'a',
-    'b', 'c', 'c', 'a', 'c', 'a', 'a', 'a', 'a', 'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a', 'a', 'a',
-    'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a',])
+//             for (const char of arr) {
+//                 charCount[char] = (charCount[char] || 0) + 1;
 
+//                 if (charCount[char] > maxCount) {
+//                     maxChar = char;
+//                     maxCount = charCount[char];
+//                 }
+//             }
+//             const result = { [maxChar]: maxCount };
+//             console.log(result);
+// }
 
-export default ProblemSolving
+// solveProblem(['a', 'a', 'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a'])
+// solveProblem(['3', '1', '1', '2', '1', '1', '2', '2', '2', '2', '2', '1', '3', '3', '1', '2'])
+// solveProblem(['a', 'a', 'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a', 'a', 'a', 'b', 'b', 'a',
+//     'b', 'c', 'c', 'a', 'c', 'a', 'a', 'a', 'a', 'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a', 'a', 'a',
+//     'b', 'b', 'a', 'b', 'c', 'c', 'a', 'c', 'a', 'a',])
 
+export default ProblemSolving;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // if (!arr || arr.length === 0) {
-    //             console.log("Input array is empty");
-    //             return;
-    //         }
+// if (!arr || arr.length === 0) {
+//             console.log("Input array is empty");
+//             return;
+//         }
