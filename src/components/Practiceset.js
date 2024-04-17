@@ -21,8 +21,7 @@
 //     );
 // }
 
-
-                        // Clicked On Buttons : (Seprately)
+// Clicked On Buttons : (Seprately)
 
 // import { useState } from "react";
 
@@ -48,12 +47,12 @@
 //   </button>
 // );
 //   }
-  
+
 // }
 
-                    // Clicked at a time on all Buttons :
+// Clicked at a time on all Buttons :
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function MyApp() {
   const [count, setCount] = useState(0);
@@ -72,10 +71,5 @@ export default function MyApp() {
 }
 
 function MyButton({ count, onClick }) {
-  return (
-    <button onClick={onClick}>
-      Clicked {count} times
-    </button>
-  );
+  return <button onClick={onClick}>Clicked {count} times</button>;
 }
-

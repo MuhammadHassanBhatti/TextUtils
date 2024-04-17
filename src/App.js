@@ -5,11 +5,11 @@ import TextUtilsForm from "./components/TextUtilsForm";
 import Alerts from "./components/Alerts";
 import ProblemSolving from "./components/ProblemSolving";
 import About from "./components/About";
-// import Cards from "./components/Cards";
-// import Practiceset from "./components/Practiceset";
-// import Game from "./components/Game";
-// import Hooks from "./components/Hooks";
-// import TanStackTable from "./components/TanStackTable";
+import Cards from "./components/Cards";
+import Practiceset from "./components/Practiceset";
+import Game from "./components/Game";
+import Hooks from "./components/Hooks";
+import TanStackTable from "./components/TanStackTable";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -43,10 +43,10 @@ function App() {
       <TextUtilsForm mode={mode} showAlert={showAlert} />
       <ProblemSolving />
       <About />
-      {/* <Cards /> */}
-      {/* <TanStackTable /> */}
-      {/* <Game />
-      <Practiceset /> */}
+      <Cards />
+      <TanStackTable />
+      <Game />
+      <Practiceset />
     </>
   );
 }
