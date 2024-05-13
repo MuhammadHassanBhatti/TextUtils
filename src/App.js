@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-// import TextUtilsForm from "./components/TextUtilsForm";
-// import Alerts from "./components/Alerts";
+import TextUtilsForm from "./components/TextUtilsForm";
+import Alerts from "./components/Alerts";
 // import ProblemSolving from "./components/ProblemSolving";
-// import About from "./components/About";
-// import Cards from "./components/Cards";
+import About from "./components/About";
+import Cards from "./components/Cards";
 // import Practiceset from "./components/Practiceset";
 // import Game from "./components/Game";
 // import Hooks from "./components/Hooks";
@@ -40,15 +40,15 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
-      {/* <Alerts alert={alert} />
+      <Alerts alert={alert} />
       <TextUtilsForm mode={mode} showAlert={showAlert} />
-      <ProblemSolving />
+      {/* <ProblemSolving /> */}
       <About />
-      <Cards /> */}
-      <HandleForm/>
-      {/* <TanStackTable />
-      <Game />
-      <Practiceset /> */}
+      <Cards />
+      <HandleForm />
+      {/* <TanStackTable /> */}
+      {/* <Game /> */}
+      {/* <Practiceset />  */}
     </>
   );
 }
