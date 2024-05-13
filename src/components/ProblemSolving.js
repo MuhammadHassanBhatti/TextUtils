@@ -8,19 +8,22 @@ const ProblemSolving = () => {
   );
 };
 
-const x = 1;
-a();
-b();
-console.log(x);
+// const x = 1;
+// a();
+// b();
+// console.log(x);
 
-function a() {
-  const x = 10;
-  console.log(x);
-}
-function b() {
-  const x = 100;
-  console.log(x);
-}
+// function a() {
+//   const x = 10;
+//   console.log(x);
+// }
+// function b() {
+//   const x = 100;
+//   console.log(x);
+// }
+
+///// UPPER CODE WORKS
+
 
 // function solveProblem(arr) {
 //             const charCount = {};

@@ -1,15 +1,16 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import TextUtilsForm from "./components/TextUtilsForm";
-import Alerts from "./components/Alerts";
-import ProblemSolving from "./components/ProblemSolving";
-import About from "./components/About";
-import Cards from "./components/Cards";
-import Practiceset from "./components/Practiceset";
-import Game from "./components/Game";
-import Hooks from "./components/Hooks";
-import TanStackTable from "./components/TanStackTable";
+// import TextUtilsForm from "./components/TextUtilsForm";
+// import Alerts from "./components/Alerts";
+// import ProblemSolving from "./components/ProblemSolving";
+// import About from "./components/About";
+// import Cards from "./components/Cards";
+// import Practiceset from "./components/Practiceset";
+// import Game from "./components/Game";
+// import Hooks from "./components/Hooks";
+// import TanStackTable from "./components/TanStackTable";
+import HandleForm from "./components/HandleForm";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -39,14 +40,15 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
-      <Alerts alert={alert} />
+      {/* <Alerts alert={alert} />
       <TextUtilsForm mode={mode} showAlert={showAlert} />
       <ProblemSolving />
       <About />
-      <Cards />
-      <TanStackTable />
+      <Cards /> */}
+      <HandleForm/>
+      {/* <TanStackTable />
       <Game />
-      <Practiceset />
+      <Practiceset /> */}
     </>
   );
 }
