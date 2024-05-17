@@ -11,6 +11,7 @@ import Cards from "./components/Cards";
 // import Hooks from "./components/Hooks";
 // import TanStackTable from "./components/TanStackTable";
 import HandleForm from "./components/HandleForm";
+import InputFieldSearch from "./components/InputFieldSearch";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -41,14 +42,15 @@ function App() {
     <>
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alerts alert={alert} />
-      <TextUtilsForm mode={mode} showAlert={showAlert} />
+      <InputFieldSearch />
       {/* <ProblemSolving /> */}
-      <About />
-      <Cards />
-      <HandleForm />
+      {/* <About /> */}
+      {/* <Cards /> */}
+      {/* <HandleForm /> */}
       {/* <TanStackTable /> */}
       {/* <Game /> */}
       {/* <Practiceset />  */}
+      <TextUtilsForm mode={mode} showAlert={showAlert} />
     </>
   );
 }
