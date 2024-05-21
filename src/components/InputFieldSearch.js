@@ -58,14 +58,14 @@ const InputFieldSearch = () => {
   }, [value]);
 
   return (
-    <Box sx={{ margin: "30px 0px 40px 150px" }}>
+    <Box sx={{ margin: "30px 0px 40px 50px" }}>
       <TextField
         label="Search Bar"
         variant="outlined"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
-      <Box sx={{ margin: "30px 200px 30px 0px" }}>
+      <Box sx={{ margin: "30px 60px 30px 0px" }}>
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
