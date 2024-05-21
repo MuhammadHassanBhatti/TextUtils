@@ -87,9 +87,9 @@ export default function TextUtilsForm(props) {
 
         <button
           className="btn btn-primary my-3 mx-1"
-          onClick={handleClearClick}
+          onClick={() => removeExtraSpaces()}
         >
-          Clear your Text
+          Remove Extra Spaces
         </button>
 
         <button
@@ -101,9 +101,9 @@ export default function TextUtilsForm(props) {
 
         <button
           className="btn btn-primary my-3 mx-1"
-          onClick={() => removeExtraSpaces()}
+          onClick={handleClearClick}
         >
-          Remove Extra Spaces
+          Clear Text
         </button>
       </div>
 

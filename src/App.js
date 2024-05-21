@@ -51,8 +51,9 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+      <Alerts alert={alert} />
       <TextUtilsForm mode={mode} showAlert={showAlert} />
-      <Button
+      {/* <Button
         style={{
           margin: "20px 0px 20px 50px",
           padding: "10px",
@@ -62,12 +63,11 @@ function App() {
         onClick={incrementedValue}
       >
         Increment
-      </Button>
-      <Alerts alert={alert} />
-      <InputFieldSearch />
-      <About />
-      <Cards />
-      <HandleForm />
+      </Button> */}
+      {/* <InputFieldSearch /> */}
+      {/* <About /> */}
+      {/* <Cards /> */}
+      {/* <HandleForm /> */}
       {/* <ProblemSolving /> */}
       {/* <TanStackTable /> */}
       {/* <Game /> */}
