@@ -3,6 +3,7 @@ import React from "react";
 export default function Cards() {
   return (
     <div className="container parent-class my-5 ">
+      <h2 style={{ margin: "25px 10px" }}>Here are some Cards :</h2>
       <div className="container-fluid">
         <div className="row gy-2">
           <div className=" col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
@@ -19,7 +20,7 @@ export default function Cards() {
                   trees on a summer’s day”
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ....
+                  Read More
                 </a>
               </div>
             </div>
@@ -39,7 +40,7 @@ export default function Cards() {
                   the wind of change carry us."
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ....
+                  Read More
                 </a>
               </div>
             </div>
@@ -59,7 +60,7 @@ export default function Cards() {
                   them to try again next year."
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ...
+                  Read More
                 </a>
               </div>
             </div>
@@ -79,7 +80,7 @@ export default function Cards() {
                   the bulk of the card's content.
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ....
+                  Read More
                 </a>
               </div>
             </div>
@@ -99,7 +100,7 @@ export default function Cards() {
                   very much.I must love you very much."
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ...
+                  Read More
                 </a>
               </div>
             </div>
@@ -119,7 +120,7 @@ export default function Cards() {
                   you're too busy"
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ....
+                  Read More
                 </a>
               </div>
             </div>
@@ -139,7 +140,7 @@ export default function Cards() {
                   art that anybody could ever want.”
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ....
+                  Read More
                 </a>
               </div>
             </div>
@@ -159,7 +160,7 @@ export default function Cards() {
                   space and provide relief in bad times.”
                 </p>
                 <a href="/" className="btn btn-primary">
-                  Read More ....
+                  Read More
                 </a>
               </div>
             </div>
