@@ -31,8 +31,8 @@ const rows = [
 
 const InputFieldSearch = () => {
   const [value, setValue] = useState("");
-//   const [consoledValue, setConsoledValue] = useState("");
   const [filteredRows, setFilteredRows] = useState(rows);
+  //   const [consoledValue, setConsoledValue] = useState("");
 
   // For console the Value
 
@@ -58,7 +58,8 @@ const InputFieldSearch = () => {
   }, [value]);
 
   return (
-    <Box sx={{ margin: "30px 0px 40px 50px" }}>
+    <Box sx={{ margin: "30px 0px 40px 70px" }}>
+      <h3 style={{ marginBottom: "20px" }}>Search Data from Table :</h3>
       <TextField
         label="Search Bar"
         variant="outlined"

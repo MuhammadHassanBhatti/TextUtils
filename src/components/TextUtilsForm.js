@@ -25,6 +25,17 @@ export default function TextUtilsForm(props) {
     props.showAlert("Converted to Title Case Succesfully", "success");
   };
 
+  const getFirstLetter = () => {
+    let newText = text.split(" ");
+    console.log(newText);
+    // const CapLetter = newText.map((ele) => {
+    //   return ele.charAt(0);
+    // });
+    // setText(CapLetter.join(" "));
+    setText(newText[0][0] + newText[1][0]);
+    // setText(newText.join(" "));
+  };
+
   const handleCopy = () => {
     let text = document.getElementById("myBox");
     text.select();
@@ -104,6 +115,9 @@ export default function TextUtilsForm(props) {
           onClick={handleClearClick}
         >
           Clear Text
+        </button>
+        <button className="btn btn-primary my-3 mx-1" onClick={getFirstLetter}>
+          First Letter
         </button>
       </div>
 
